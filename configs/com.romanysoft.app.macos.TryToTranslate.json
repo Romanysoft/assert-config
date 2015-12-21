@@ -1,6 +1,8 @@
 {
-    "gourl":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=977182|575703",
-    "options":{
+    "comment":"google translate api url",
+    "gourl20151218":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=977182|575703",
+    "gourl_v1":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=265632.142896",
+    "options_v1":{
         "client":"t",
         "hl":"zh-CN",
         "ie":"UTF-8",
@@ -8,5 +10,13 @@
         "sl":"auto",
         "tl":"en",
         "q":""
-    }
+    },
+    "gourl_v2": "https://www.googleapis.com/language/translate/v2?key=AIzaSyCNwvUJo7bWWUMk7Z7bioTFvmWtHVXH2LY",
+    "options_v2":{
+        "source":"auto",
+        "sl":"auto",
+        "target":"en",
+        "tl": "en"
+    },
+    "use_gourl_v2": true
 }
