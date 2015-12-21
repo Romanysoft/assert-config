@@ -15,8 +15,8 @@
     "options_v2":{
         "source":"auto",
         "sl":"auto",
-        "target":"en",
-        "tl": "en"
+        "target":"zh-CN",
+        "tl": "zh-CN"
     },
     "use_gourl_v2": true
 }
