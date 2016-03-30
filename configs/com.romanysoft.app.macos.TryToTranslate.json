@@ -2,7 +2,8 @@
     "onlineHelpURL":"http://romanysoft.github.io/Try-to-translate/documents.html",
     "checkUpdate":{
         "lastVersion":"3.19",
-        "updateURL":"http://romanysoft.github.io/Try-to-translate/versions.html"
+        "updateURL":"http://romanysoft.github.io/Try-to-translate/versions.html",
+        "prompt":"The new version has been released."
     },
     "comment":"google translate api url",
     "gourl20151218":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=977182|575703",

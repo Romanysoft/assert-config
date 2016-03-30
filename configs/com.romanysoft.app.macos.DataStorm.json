@@ -2,7 +2,8 @@
     "onlineHelpURL":"http://romanysoft.github.io/DataStorm/documents.html",
     "checkUpdate":{
         "lastVersion":"4.21",
-        "updateURL":"http://romanysoft.github.io/DataStorm/versions.html"
+        "updateURL":"http://romanysoft.github.io/DataStorm/versions.html",
+        "prompt":"The new version has been released."
     }
     
 }
