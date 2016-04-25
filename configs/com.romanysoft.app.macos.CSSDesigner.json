@@ -1,0 +1,9 @@
+{
+    "onlineHelpURL":"http://romanysoft.github.io/CSSDesigner/documents",
+    "checkUpdate":{
+        "lastVersion":"4.5",
+        "updateURL":"http://romanysoft.github.io/CSSDesigner/versions",
+        "prompt":"The new version has been released."
+    }
+    
+}
