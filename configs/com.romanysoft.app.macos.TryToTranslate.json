@@ -1,7 +1,7 @@
 {
     "onlineHelpURL":"http://romanysoft.github.io/Try-to-translate/documents",
     "checkUpdate":{
-        "lastVersion":"3.19",
+        "lastVersion":"3.21",
         "updateURL":"http://romanysoft.github.io/Try-to-translate/versions",
         "prompt":"The new version has been released."
     },
