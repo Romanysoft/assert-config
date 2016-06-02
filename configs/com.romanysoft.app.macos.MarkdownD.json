@@ -1,7 +1,7 @@
 {
     "onlineHelpURL":"http://romanysoft.github.io/MarkdownD/documents",
     "checkUpdate":{
-        "lastVersion":"3.1",
+        "lastVersion":"3.2",
         "updateURL":"http://romanysoft.github.io/MarkdownD/versions",
         "prompt":"The new version has been released."
     }
