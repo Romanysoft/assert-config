@@ -1,0 +1,9 @@
+{
+    "onlineHelpURL":"https://github.com/Romanysoft/XLS2csv/wiki",
+    "checkUpdate":{
+        "lastVersion":"4.18",
+        "updateURL":"http://romanysoft.github.io/XLS2csv/versions.html",
+        "prompt":"The new version has been released."
+    }
+    
+}
