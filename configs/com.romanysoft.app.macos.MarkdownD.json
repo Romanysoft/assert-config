@@ -2,6 +2,10 @@
     "onlineHelpURL":"http://github.com/Romanysoft/MarkdownD/wiki",
     "checkUpdate":{
         "lastVersion":"3.2",
+        "enableForMacOSAppStore": false,
+        "enableForElectron": true,        
+        "enableForMacOSAppStore": false,
+        "enableForElectron": true,
         "updateURL":"http://romanysoft.github.io/MarkdownD/versions.html",
         "prompt":"The new version has been released."
     }

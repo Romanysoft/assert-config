@@ -2,6 +2,8 @@
     "onlineHelpURL":"http://romanysoft.github.io/DataStorm/documents",
     "checkUpdate":{
         "lastVersion":"4.23",
+        "enableForMacOSAppStore": false,
+        "enableForElectron": true,        
         "updateURL":"http://romanysoft.github.io/DataStorm/versions",
         "prompt":"The new version has been released."
     }
