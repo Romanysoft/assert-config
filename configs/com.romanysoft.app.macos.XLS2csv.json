@@ -4,7 +4,7 @@
         "lastVersion":"4.18",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
-        "updateURL":"http://romanysoft.github.io/XLS2csv/versions.html",
+        "updateURL":"http://romanysoft.github.io/XLS2csv/versions",
         "prompt":"The new version has been released."
     }
     
