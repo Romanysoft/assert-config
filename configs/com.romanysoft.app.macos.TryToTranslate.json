@@ -1,10 +1,10 @@
 {
-    "onlineHelpURL":"http://romanysoft.github.io/Try-to-translate/documents",
+    "onlineHelpURL":"https://romanysoft.github.io/Try-to-translate/documents",
     "checkUpdate":{
-        "lastVersion":"3.21",
+        "lastVersion":"3.22",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
-        "updateURL":"http://romanysoft.github.io/Try-to-translate/versions",
+        "updateURL":"https://romanysoft.github.io/Try-to-translate/versions",
         "prompt":"The new version has been released."
     },
     "comment":"google translate api url",
