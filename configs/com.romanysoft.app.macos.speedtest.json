@@ -2,7 +2,7 @@
     "onlineHelpURL":"https://github.com/Romanysoft/SpeedTest/wiki",
     "checkUpdate":{
         "lastVersion":"6.6.3",
-        "enableForMacOSAppStore": true,
+        "enableForMacOSAppStore": false,
         "enableForElectron": true,        
         "updateURL":"https://romanysoft.github.io/SpeedTest/versions",
         "prompt":"New version 6.6.3 available..."
