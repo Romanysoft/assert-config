@@ -5,7 +5,7 @@
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
         "updateURL":"https://romanysoft.github.io/SpeedTest/versions",
-        "prompt":"New major version 6.6.3 available ..."
+        "prompt":"New major version 6.6.4 available ..."
     }
     
 }
