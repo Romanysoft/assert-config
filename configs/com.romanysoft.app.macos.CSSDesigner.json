@@ -2,7 +2,7 @@
     "onlineHelpURL":"https://romanysoft.github.io/CSSDesigner/documents",
     "checkUpdate":{
         "lastVersion":"4.7.1",
-        "enableForMacOSAppStore": false,
+        "enableForMacOSAppStore": true,
         "enableForElectron": true,        
         "updateURL":"https://romanysoft.github.io/CSSDesigner/versions",
         "prompt":"The new version 4.7.1 has been released."
