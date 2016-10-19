@@ -1,11 +1,11 @@
 {
     "onlineHelpURL":"https://github.com/Romanysoft/XLS2csv/wiki",
     "checkUpdate":{
-        "lastVersion":"4.18",
+        "lastVersion":"4.19",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
-        "updateURL":"http://romanysoft.github.io/XLS2csv/versions",
-        "prompt":"The new version has been released."
+        "updateURL":"https://romanysoft.github.io/XLS2csv/versions",
+        "prompt":"New major version 4.19 available ..."
     }
     
 }
