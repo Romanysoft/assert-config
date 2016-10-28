@@ -1,0 +1,272 @@
+@ui-hove-color: #c24448;
+#rty-app-promot-layer {
+    display: none;
+    position: absolute;
+    // width: 800px;
+    height: 300px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2147483648;
+    opacity: 0.85;
+    background: -webkit-linear-gradient(top, #3a404d, #181c26);
+    background: linear-gradient(to bottom, #3a404d, #181c26);
+    border-radius: 10px;
+    box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+}
+
+.app-promot-leaderboard {
+    h1 {
+        font-size: 18px;
+        color: #e1e1e1;
+        svg {
+            width: 25px;
+            height: 26px;
+            position: relative;
+            top: 3px;
+            margin-right: 6px;
+            vertical-align: baseline;
+        }
+        
+        toolbar {
+			right: 0;
+			position: absolute;
+			padding: 0px 24px;
+        }
+    }
+    container {
+        display: block;
+        height: 12em; // 192px
+        overflow-y: scroll;
+        overflow-x: hidden;
+        //
+        a {
+            outline: 0;
+            color: #298cda;
+            text-decoration: none;
+        }
+        //
+        .app-item {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 15px 0px 10px 0px;
+            letter-spacing: -0.04em; 
+            height: 120px;
+            
+            .app-show-info {
+	            .app-icon {
+	                width: 75px;
+	                float: left;
+	                // margin-right: 15px;
+	                img {
+	                    width: 64px;
+	                    height: 64px;
+	                    padding: 4px;
+	                }
+	            }
+	            .app-content {
+	                width: 525px;
+	                float: left;
+	                padding-right: 10px;
+	                .app-header {
+	                    height: 25px;
+	                    overflow: hidden;
+	                    h2 {
+	                        color: #262626;
+	                        letter-spacing: -0.04em;
+	                        font-size: 16px;
+	                        line-height: 16px;
+	                        height: 25px;
+	                        margin: 0px 10px 0px 0px;
+	                        display: inline-block;
+	                        white-space: nowrap;
+	                        text-overflow: ellipsis;
+	                        overflow: hidden;
+	                        max-width: 370px;
+	                        padding-right: 1px;
+	                        font-weight: 600;
+	                        a {
+	                            color: #9ed929;;
+	                        }
+	                    }
+	                    .app-update {
+	                        margin-left: 2px;
+	                        display: inline-block;
+	                        vertical-align: top;
+	                        margin-top: -2px;
+	                        a {
+	                            text-transform: uppercase;
+	                            font-size: 10px;
+	                            font-weight: bold;
+	                            color: #ffffff;
+	                            background: #f39c12;
+	                            padding: 0px 4px;
+	                            border-radius: 3px;
+	                            letter-spacing: -0.04em;
+	                        }
+	                    }
+	                    .price-drop a {
+	                        background: #27ae60;
+	                    }
+	                    .app-update-date {
+	                        display: inline;
+	                        font-size: 10px;
+	                        font-weight: bold;
+	                        vertical-align: top;
+	                        color: #888;
+	                        margin-left: 5px;
+	                        background: #fff;
+	                        padding: 0px 4px;
+	                        border: 1px solid #e5e5e5;
+	                        border-radius: 3px;
+	                        text-transform: uppercase;
+	                    }
+	                }
+	                p {
+	                    font-size: 13px;
+	                    line-height: 21px;
+	                    letter-spacing: -0.04em;
+	                    color: #f9f3f3;
+	                    margin-bottom: 10px;
+	                }
+	                .app-desc {
+	                    height: 42px;
+	                    overflow: hidden;
+	                    text-overflow: ellipsis;
+	                    display: -webkit-box;
+	                    -webkit-line-clamp: 2;
+	                    -webkit-box-orient: vertical;
+	                }
+	            }
+	            .app-content-change {
+	                width: 460px;
+	            }
+	            .app-price {
+	                width: 75px;
+	                height: 75px;
+	                float: left;
+	                text-align: center;
+	                .main-unit.medium-size {
+	                    font-size: 20px;
+	                }
+	                .sub-unit {
+	                    font-size: 12px;
+	                    position: relative;
+	                    top: -7px;
+	                }
+	                .sub-unit.medium-size {
+	                    top: -6px;
+	                }
+	            }
+	            .app-price-change {
+	                color: white;
+	                padding-top: 10px;
+	                height: 56px;
+	                position: relative;
+	                font-weight: 600;
+	                line-height: 40px;
+	                .price-strike {
+	                    position: absolute;
+	                    top: 31px;
+	                    left: 11px;
+	                    width: 55px;
+	                    height: 4px;
+	                    background: red;
+	                    opacity: 0.25;
+	                    -webkit-transform: rotate(160deg);
+	                    transform: rotate(160deg);
+	                }
+	                .was-label {
+	                    font-size: 13px;
+	                    font-weight: bold;
+	                    color: #c3c3c3;
+	                    /* margin-top: -12px; */
+	                    position: absolute;
+	                    top: 42px;
+	                    right: 21px;
+	                }
+	            }
+	            .app-price {
+	                width: 75px;
+	                height: 75px;
+	                float: left;
+	                text-align: center;
+	                a {
+	                    float: left;
+	                    width: 75px;
+	                    height: 73px;
+	                    background: #dedede;
+	                    border-radius: 5px;
+	                    box-shadow: 0px 2px 0px #b2b2b2;
+	                    color: #424242;
+	                    font-weight: 600;
+	                }
+	                .app-price-border {
+	                    width: 75px;
+	                    height: 75px;
+	                    float: left;
+	                    width: 55px;
+	                    height: 40px;
+	                    line-height: 40px;
+	                    background: #ffffff;
+	                    border-radius: 3px;
+	                    margin: 10px;
+	                }
+	                .main-unit {
+	                    font-size: 22px;
+	                }
+	                .sub-unit {
+	                    font-size: 12px;
+	                    position: relative;
+	                    top: -7px;
+	                }
+	                .price-label {
+	                    color: #ffffff;
+	                    font-size: 13px;
+	                    font-weight: bold;
+	                    position: relative;
+	                    bottom: 7px;
+	                }
+	            }
+            }
+            .app-show-toolbar {
+            	.app-coupon{
+            		width: 250px;
+            		float: left;
+            		
+            		margin: 0.3em 0.3em 0.3em 0;
+            		
+            		label {
+            			padding: 0px 0px 0px 12px;
+            		}
+            		
+            		mark {
+            			min-width: 156px;
+            			padding: 2px 8px 2px 8px;
+            		}
+            	}
+            	.app-share {
+              		width: 440px;
+            		float: left;
+            		
+            		.app-share-socials{
+            			padding: 0px 0px 0px 16px;
+            			
+					   .jssocials-shares {
+					    	margin: -0.6em 0;
+					    	
+					    	.jssocials-share {
+							    display: inline-block;
+							    vertical-align: top;
+							    margin: 0.2em 0.2em 0.2em 0;
+							}
+							
+					    	a {
+					    		color: white;
+					    	}
+						}
+            		}
+            		
+            	}
+            }
+        }
+    }
+}

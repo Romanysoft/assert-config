@@ -1,0 +1,49 @@
+{
+    "AppExInfoDescription" : "set App other information",
+    "AppExInfo" : {
+        "#enableHttpServer" : true,
+        "#onlyBuildInServer": false,
+        "enableNativeRate":true,
+
+        "BuyURL":"http://romanysoft.github.io/XLS2CSV/buy",
+        "FAQURL":"https://github.com/Romanysoft/XLS2CSV/issues",
+
+        "HomePageURL":"http://romanysoft.github.io/XLS2CSV/",
+        "DocumentPageURL":"http://romanysoft.github.io/XLS2CSV/documents",
+        "RoadmapPageURL":"http://romanysoft.github.io/XLS2CSV/roadmap",
+        "ReportIssuePageURL":"https://github.com/Romanysoft/XLS2CSV/issues",
+        "ViewLicensePageURL":"",
+        "ReleaseNotesPageURL":"http://romanysoft.github.io/XLS2CSV/releasenotes",
+        "CheckForUpdatePageURL":"http://romanysoft.github.io/XLS2CSV/versions",
+
+        "autoOffset": true,
+        "minSize" : [720, 450],
+        "size" : [1152, 700],
+        "#maxSize" : [1152, 700],
+        "hasTitleBar" : true,
+        "hasShadow" : true,
+        "hasTextured" : true,
+        "hasUnifiedTitleAndToolbarWindow" : true,
+        "hasCloseControls" : true,
+        "hasMinimizeControls" : true,
+        "hasResizeControls" : true,
+        "hasToolbarButtonControls" : true,
+        "hideCloseButton" : false,
+        "hideMiniaturizeButton": false,
+        "hideZoomButton" : false,
+        "hideToolbarButton" : false,
+        "hideDocumentIconButton" : false,
+        "hideDocumentVersionsButton" : false,
+        "hideFullScreenButton" : true,
+        "menuHideList" : [
+            {"tag":100,"hide":true},
+            {"tag":200,"hide":false}
+        ],
+        "menuTitleList" : [
+            {"tag":901,"title":"","method":"re", "descript":"About"},
+            {"tag":907,"title":"","method":"re", "descript":"Hide"},
+            {"tag":911,"title":"","method":"re", "descript":"Quit"}
+        ]
+    },
+    "EnableIAP" : false
+}

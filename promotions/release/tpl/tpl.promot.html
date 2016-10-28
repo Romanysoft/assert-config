@@ -1,0 +1,65 @@
+
+<!---->
+<div id="rty-app-promot-layer"></div>
+<script id="tmpl-app-promot" type="text/html">
+    <div class="app-promot-leaderboard">
+        <h1>
+        <svg class="ico-cup">
+            <use xlink:href="#cup"></use>
+        </svg>
+        {{promotionTitle}}
+        <toolbar>
+        	<input type="checkbox">
+        	<button onclick="$('#rty-app-promot-layer').hide();">X</button>
+        </toolbar>
+        </h1>  
+        <container>
+            {{each list as obj i}}
+            <div class="app-item">
+            	<div class="app-show-info">
+	                <div class="app-icon">
+	                    <a href="{{obj.homeUrl}}">
+	                        <img src="{{obj.logo}}">
+	                    </a>    
+	                </div>
+
+	                <div class="app-content app-content-change">
+	                    <div class="app-header">
+	                        <h2>
+	                            <a href="{{obj.homeUrl}}">{{obj.name}}</a>
+	                        </h2>
+	                        <!--<div class="app-update price-drop">
+	                            <a href="{{obj.buyUrl}}"></a>
+	                        </div>-->
+	                        <!--<div class="app-update-date">2 hours ago</div>-->
+	                    </div> 
+	                    <p class="app-desc">{{obj.description}}</p> 
+	                </div>    
+
+	                <div class="app-price app-price-change">
+	                    <span class="main-unit medium-size">{{obj.orgPrice.main}}</span><span class="sub-unit medium-size">{{obj.orgPrice.sub}}</span>
+	                    <div class="price-strike"></div>
+	                    <div class="was-label">WAS</div>
+	                </div>  
+
+	                <div class="app-price">
+	                    <a href="{{obj.buyUrl}}" rel="nofollow" target="_blank"><span class="app-price-border"><span class="main-unit ">{{obj.price.main}}</span><span class="sub-unit ">{{obj.price.sub}}</span></span><span class="price-label">GET IT</span></a>
+	                </div> 
+				</div>
+				<div class="app-show-toolbar">
+					<div class="app-coupon">
+						<label>Coupon:</label>
+						<mark>{{obj.coupon}}</mark>
+					</div>
+					<div class="app-share">
+						<div id="app-share-{{i}}" class="app-share-socials"></div>
+					</div>
+				</div>
+                <div class="clearfix"></div>                             
+            </div>  
+            {{/each}}  
+
+        </container>          
+
+    </div>
+</script>
