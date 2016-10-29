@@ -1,11 +1,12 @@
 #rty-app-promot-layer {
   display: none;
   position: absolute;
+  width: 712px;
   height: 300px;
   bottom: 20px;
   right: 20px;
   z-index: 2147483648;
-  opacity: 0.90;
+  opacity: 0.95;
   background: -webkit-linear-gradient(top, #3a404d, #181c26);
   background: linear-gradient(to bottom, #3a404d, #181c26);
   border-radius: 10px;
