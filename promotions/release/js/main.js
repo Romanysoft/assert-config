@@ -24,6 +24,8 @@
                 promotData = obj.data;
             }
             
+            console.log("promotData.length = " + promotData.length);
+            
             var curAppId = b$.App.getAppId(), 
             	isRegistered = b$.App.getIsRegistered();
         	$.each(promotData, function(i, obj){
