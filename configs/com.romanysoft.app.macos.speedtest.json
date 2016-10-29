@@ -3,12 +3,16 @@
     "checkUpdate":{
         "lastVersion":"6.7.1",
         "enableForMacOSAppStore": true,
-        "enableForElectron": true,        
+        "enableForElectron": true,  
+	"enableForTest": true, 
         "updateURL":"https://romanysoft.github.io/SpeedTest/versions",
         "prompt":"New major version 6.7.1 available ..."
     },
-    "share":{
-        "FaceBook":"https://www.facebook.com/sharer/sharer.php"
-    }
+    "checkPatchs":{
+	"enable": true
+    },
+    "checkPromotions":{
+	"enable": true
+    }	
     
 }

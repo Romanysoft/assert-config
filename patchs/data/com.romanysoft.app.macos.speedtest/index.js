@@ -1,5 +1,5 @@
 /**
- * Created by Ian on 2016/10/18.
+ * Created by Ian on 2016/10/29.
  */
 
 (function () {
@@ -12,28 +12,16 @@
     if(b$.pN){
     	baseUrl = "https://romanysoft.github.io/assert-config/";
     }
-    baseUrl += "promotions/release/";
-
+    baseUrl += "patchs/data/com.romanysoft.app.macos.speedtest/";
 
     _U.launch = function () {
         var t$ = this;
-
-        var cssUrls = [
-        	baseUrl + "common/font-awesome-4.7.0/css/font-awesome.min.css",
-        	baseUrl + "common/jssocials-1.4.0/jssocials.css",
-        	baseUrl + "common/jssocials-1.4.0/jssocials-theme-flat.css",
-            baseUrl + "styles/styles.css"
-        ];
-
-        var htmlUrls = [
-            baseUrl + "tpl/tpl.promot.html"
-        ];
-
-        var jsUrls = [];
-        if(typeof window.template === "undefined") jsUrls.push( baseUrl + "common/artTemplate.js");
         
-        jsUrls.push(baseUrl + "common/jssocials-1.4.0/jssocials.min.js");
-        jsUrls.push(baseUrl + "js/main.js");
+        var cssUrls = [], htmlUrls = [], jsUrls = [];
+        
+        
+        //TODO：根据产品的版本或者其他标识特殊处理
+        
 
         var _$fn = function(nxt, tag, in_urls){
                 var _f = function(urls){

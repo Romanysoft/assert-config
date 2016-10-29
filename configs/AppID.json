@@ -1,11 +1,18 @@
 {
     "onlineHelpURL":"",
     "checkUpdate":{
-        "lastVersion":"1.0",
-        "enableForMacOSAppStore": false,
-        "enableForElectron": false,        
+        "lastVersion":"4.5.6",
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true,
+	"enableForTest": true, 
         "updateURL":"",
         "prompt":""
+    },
+    "checkPatchs":{
+	"enable": false
+    },
+    "checkPromotions":{
+	"enable": true
     }
     
 }
