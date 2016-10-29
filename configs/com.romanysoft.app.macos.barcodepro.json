@@ -1,11 +1,11 @@
 {
-    "onlineHelpURL":"https://github.com/Romanysoft/MarkdownD/wiki",
+    "onlineHelpURL":"https://github.com/Romanysoft/BarcodePro/wiki",
     "checkUpdate":{
-        "lastVersion":"3.6",
+        "lastVersion":"8.1",
         "enableForMacOSAppStore": false,
         "enableForElectron": true, 
 	"enableForTest": true,        
-        "updateURL":"https://romanysoft.github.io/MarkdownD/versions",
+        "updateURL":"https://romanysoft.github.io/BarcodePro/versions",
         "prompt":"The new version has been released."
     },
     "checkPatchs":{

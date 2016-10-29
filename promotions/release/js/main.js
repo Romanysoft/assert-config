@@ -34,7 +34,7 @@
 
             try{
                 var content = template("tmpl-app-promot", {
-                    promotionTitle: "Romanysoft LAB Discount",
+                    promotionTitle: "Romanysoft Promo",
                     list:promotData
                 });
                 $('#rty-app-promot-layer').html(content);

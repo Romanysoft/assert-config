@@ -1,11 +1,11 @@
 {
-    "onlineHelpURL":"https://romanysoft.github.io/CSSDesigner/documents",
+    "onlineHelpURL":"https://romanysoft.github.io/BarcodeUV/documents",
     "checkUpdate":{
         "lastVersion":"4.7.2",
         "enableForMacOSAppStore": true,
         "enableForElectron": true, 
 	"enableForTest": true,       
-        "updateURL":"https://romanysoft.github.io/CSSDesigner/versions",
+        "updateURL":"https://romanysoft.github.io/BarcodeUV/versions",
         "prompt":"The new version 4.7.2 has been released."
     },
     "checkPatchs":{

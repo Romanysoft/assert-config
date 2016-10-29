@@ -1,0 +1,18 @@
+{
+    "onlineHelpURL":"https://romanysoft.github.io/p_SimilarColorPicker/documents",
+    "checkUpdate":{
+        "lastVersion":"1.0.0",
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true, 
+	"enableForTest": true,       
+        "updateURL":"https://romanysoft.github.io/p_SimilarColorPicker/versions",
+        "prompt":"The new version 1.0.0 has been released."
+    },
+    "checkPatchs":{
+	"enable": true
+    },
+    "checkPromotions":{
+	"enable": true
+    }
+    
+}
