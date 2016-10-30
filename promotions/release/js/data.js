@@ -192,5 +192,6 @@
         _U.data.shuffle();
     }
 
+	window["RTY-PROMOTIONS-DATAOBJ"] = _U;
     return _U;
 })();
