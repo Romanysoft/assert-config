@@ -1,4 +1,108 @@
 @ui-hove-color: #c24448;
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.ref_g_scrollbar_black{
+  /***
+*** 滚动条部分
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar 滚动条整体部分
+::-webkit-scrollbar-thumb  滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+::-webkit-scrollbar-track  滚动条的轨道（里面装有Thumb）
+::-webkit-scrollbar-button 滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+::-webkit-scrollbar-track-piece 内层轨道，滚动条中间部分（除去）
+::-webkit-scrollbar-corner 边角，即两个滚动条的交汇处
+::-webkit-resizer 两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+***/
+
+  ::-webkit-scrollbar {
+    height: 11px;
+    width: 11px
+  }
+  ::-webkit-scrollbar-button {
+    height: 0;
+    width: 0
+  }
+  ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
+    display: block
+  }
+  ::-webkit-scrollbar-button:vertical:start:increment, ::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none
+  }
+
+  // 垂直和水平条的样式
+  //::-webkit-scrollbar-track {
+  //  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  //  border-radius: 10px;
+  //  background-color: #F5F5F5;
+  //}
+
+  // 滚动条滑块的样式
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+  }
+
+  //边角，即两个滚动条的交汇处
+  ::-webkit-scrollbar-corner{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.02);
+    background-color: rgba(0, 0, 0, .02);
+  }
+
+
+  ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal, ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal {
+    border-style: solid;
+    border-color: transparent
+  }
+  ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+    background-clip: padding-box;
+    background-color: #fff;
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, .2);
+    min-height: 28px;
+    padding-top: 100
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .4)
+  }
+  ::-webkit-scrollbar-thumb:active {
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+    background-color: rgba(0, 0, 0, .5)
+  }
+  ::-webkit-scrollbar-track:vertical, ::-webkit-scrollbar-track:horizontal, ::-webkit-scrollbar-thumb:vertical, ::-webkit-scrollbar-thumb:horizontal {
+    border-width: 0;
+  }
+  ::-webkit-scrollbar-track:hover {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05)
+  }
+  ::-webkit-scrollbar-track:active {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14),inset -1px -1px 0 rgba(0, 0, 0, .07);
+    background-color: rgba(0, 0, 0, .05)
+  }
+  ::-webkit-resizer {
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05)
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 #rty-app-promot-layer {
     display: none;
     position: absolute;
@@ -33,9 +137,12 @@
 			padding: 0px 24px;
         }
     }
+    
+    .ref_g_scrollbar_black;
+    
     container {
         display: block;
-        height: 12em; // 192px
+        height: 240px;
         overflow-y: scroll;
         overflow-x: hidden;
         //
@@ -235,6 +342,7 @@
             		margin: 0.3em 0.3em 0.3em 0;
             		
             		label {
+            			color: #e1e1e1;
             			padding: 0px 0px 0px 12px;
             		}
             		

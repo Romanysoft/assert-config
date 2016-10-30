@@ -1,3 +1,90 @@
+.ref_g_scrollbar_black {
+  /***
+*** ����������
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar ���������岿��
+::-webkit-scrollbar-thumb  ������������С���飬�����������ƶ��������������ƶ���ȡ�����Ǵ�ֱ����������ˮƽ��������
+::-webkit-scrollbar-track  �������Ĺ���������װ��Thumb��
+::-webkit-scrollbar-button �������Ĺ��������˰�ť������ͨ������΢��С������λ�á�
+::-webkit-scrollbar-track-piece �ڲ��������������м䲿�֣���ȥ��
+::-webkit-scrollbar-corner �߽ǣ��������������Ľ��㴦
+::-webkit-resizer �����������Ľ��㴦������ͨ���϶�����Ԫ�ش�С��С�ؼ�
+***/
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:start:decrement,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:start:increment,
+.ref_g_scrollbar_black ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:horizontal,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:vertical,
+.ref_g_scrollbar_black ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.ref_g_scrollbar_black ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
 #rty-app-promot-layer {
   display: none;
   position: absolute;
@@ -11,6 +98,19 @@
   background: linear-gradient(to bottom, #3a404d, #181c26);
   border-radius: 10px;
   box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+}
+.app-promot-leaderboard {
+  /***
+*** ����������
+http://www.xuanfengge.com/css3-webkit-scrollbar.html
+::-webkit-scrollbar ���������岿��
+::-webkit-scrollbar-thumb  ������������С���飬�����������ƶ��������������ƶ���ȡ�����Ǵ�ֱ����������ˮƽ��������
+::-webkit-scrollbar-track  �������Ĺ���������װ��Thumb��
+::-webkit-scrollbar-button �������Ĺ��������˰�ť������ͨ������΢��С������λ�á�
+::-webkit-scrollbar-track-piece �ڲ��������������м䲿�֣���ȥ��
+::-webkit-scrollbar-corner �߽ǣ��������������Ľ��㴦
+::-webkit-resizer �����������Ľ��㴦������ͨ���϶�����Ԫ�ش�С��С�ؼ�
+***/
 }
 .app-promot-leaderboard h1 {
   font-size: 18px;
@@ -29,9 +129,83 @@
   position: absolute;
   padding: 0px 24px;
 }
+.app-promot-leaderboard ::-webkit-scrollbar {
+  height: 11px;
+  width: 11px;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-button:start:decrement,
+.app-promot-leaderboard ::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-button:vertical:start:increment,
+.app-promot-leaderboard ::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-corner {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.app-promot-leaderboard ::-webkit-scrollbar-track:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-track:horizontal,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:horizontal,
+.app-promot-leaderboard ::-webkit-scrollbar-track:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-track:horizontal,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:horizontal {
+  border-style: solid;
+  border-color: transparent;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+  background-clip: padding-box;
+  background-color: #fff;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  background-clip: padding-box;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 28px;
+  padding-top: 100;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:hover {
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:active {
+  -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.app-promot-leaderboard ::-webkit-scrollbar-track:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-track:horizontal,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:vertical,
+.app-promot-leaderboard ::-webkit-scrollbar-thumb:horizontal {
+  border-width: 0;
+}
+.app-promot-leaderboard ::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.app-promot-leaderboard ::-webkit-scrollbar-track:active {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.14), inset -1px -1px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.app-promot-leaderboard ::-webkit-resizer {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+}
 .app-promot-leaderboard container {
   display: block;
-  height: 12em;
+  height: 240px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -225,6 +399,7 @@
   margin: 0.3em 0.3em 0.3em 0;
 }
 .app-promot-leaderboard container .app-item .app-show-toolbar .app-coupon label {
+  color: #e1e1e1;
   padding: 0px 0px 0px 12px;
 }
 .app-promot-leaderboard container .app-item .app-show-toolbar .app-coupon mark {
