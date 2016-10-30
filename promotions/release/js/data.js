@@ -106,11 +106,11 @@
         description: "Full-featured Markdown editor. ",   
         coupon:"ROMA-R6TK-WCFG",
         orgPrice: {
-            main:"$19",
+            main:"$15",
             sub:".99"   
         },
         price:{
-            main:"$9",
+            main:"$7",
             sub:".99"
         },
         save: "50%",
@@ -168,11 +168,11 @@
         description: "A plurality of data format conversion, supports Windows, Linux and MacOSX. ",   
         coupon:"ROMA-07W7-DATA",
         orgPrice: {
-            main:"$49",
+            main:"$36",
             sub:".99"   
         },
         price:{
-            main:"$14",
+            main:"$10",
             sub:".99"
         },
         save: "70%",
@@ -181,11 +181,110 @@
     })); 
     		
 	// TryToTranslate
+    _U.data.push(_U.tp({
+        id:"com.romanysoft.app.macos.TryToTranslate",
+        name:"TryToTranslate - Google business translation engine",                     
+        logo:"https://romanysoft.github.io/Try-to-translate/images/logo_64.png",                                          
+        description: "A handy translation tool for your daily multilingual needs.",   
+        coupon:"ROMA-ELI7-KNFT",
+        orgPrice: {
+            main:"$19",
+            sub:".99"   
+        },
+        price:{
+            main:"$9",
+            sub:".99"
+        },
+        save: "50%",
+        homeUrl: "https://romanysoft.github.io/Try-to-translate/",
+        buyUrl:"https://shopper.mycommerce.com/checkout/cart/new/55399-34"     
+    })); 	
+	
+	
 	// BatchFileTranslater
+    _U.data.push(_U.tp({
+        id:"com.romanysoft.app.macos.FileTranslater",
+        name:"BatchFileTranslater - Google business translation engine",                     
+        logo:"https://romanysoft.github.io/Batch-File-Translater/images/logo_64.png",                                          
+        description: "The Key-Value file translation tool for your daily multilingual needs.",   
+        coupon:"ROMA-5DBP-QCGB",
+        orgPrice: {
+            main:"$32",
+            sub:".99"   
+        },
+        price:{
+            main:"$16",
+            sub:".49"
+        },
+        save: "50%",
+        homeUrl: "https://romanysoft.github.io/Batch-File-Translater/",
+        buyUrl:"https://shopper.mycommerce.com/checkout/cart/new/55399-18"     
+    })); 	
+	
+	
 	// ImageMinify
+    _U.data.push(_U.tp({
+        id:"com.romanysoft.app.macos.ImageMinify",
+        name:"ImageMinify - Image resizing and compression",                     
+        logo:"https://romanysoft.github.io/ImageMinify/images/logo_64.png",                                          
+        description: "Great file image quality and file size optimization tool for your daily work.",   
+        coupon:"ROMA-B1FE-FTPV",
+        orgPrice: {
+            main:"$29",
+            sub:".99"   
+        },
+        price:{
+            main:"$5",
+            sub:".99"
+        },
+        save: "80%",
+        homeUrl: "https://romanysoft.github.io/ImageMinify/",
+        buyUrl:"https://shopper.mycommerce.com/checkout/cart/new/55399-16"     
+    })); 
+	
+	
 	// GraphSketcher
+    _U.data.push(_U.tp({
+        id:"com.romanysoft.app.macos.GraphSketcher",
+        name:"GraphSketcher - Professional graphics designer editor.",                     
+        logo:"https://romanysoft.github.io/GraphSketcher/images/logo_64.png",                                          
+        description: "Great professional graphics designer editor for your daily work.",   
+        coupon:"ROMA-PDF8-EESH",
+        orgPrice: {
+            main:"$19",
+            sub:".99"   
+        },
+        price:{
+            main:"$9",
+            sub:".99"
+        },
+        save: "50%",
+        homeUrl: "https://romanysoft.github.io/GraphSketcher/",
+        buyUrl:"https://shopper.mycommerce.com/checkout/cart/new/55399-8"     
+    }));	
+	
+	
 	// CSVEditorPro2
+    _U.data.push(_U.tp({
+        id:"com.romanysoft.app.macos.GraphSketcher",
+        name:"GraphSketcher - Professional CSV editor and exporter.",                     
+        logo:"https://romanysoft.github.io/CSVEditorPro2/images/logo_64.png",                                          
+        description: "Great professional CSV editor and exporter for your daily work.",   
+        coupon:"ROMA-I8KX-PJPH",
+        orgPrice: {
+            main:"$39",
+            sub:".99"   
+        },
+        price:{
+            main:"$11",
+            sub:".99"
+        },
+        save: "70%",
+        homeUrl: "https://romanysoft.github.io/CSVEditorPro2/",
+        buyUrl:"https://shopper.mycommerce.com/checkout/cart/new/55399-46"     
+    }));	
 
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
     // 随机处理
     var enabeShuffle = true;
     if(enabeShuffle && $.RTYUtils.isFunction(Array.prototype.shuffle)){
