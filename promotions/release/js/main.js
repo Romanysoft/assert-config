@@ -46,11 +46,11 @@
             
             var curAppId = b$.App.getAppId(), 
             	isRegistered = b$.App.getIsRegistered();
-        	$.each(promotData, function(i, obj){
-        		if(obj.id == curAppId){
-        			promotData.splice(i,1);
-        		}
-        	});
+//	        	$.each(promotData, function(i, obj){
+//	        		if(obj.id == curAppId){
+//	        			promotData.splice(i,1);
+//	        		}
+//	        	});
 
             try{
                 var content = template("tmpl-app-promot", {
