@@ -1,18 +1,17 @@
 {
-    "onlineHelpURL":"https://github.com/Romanysoft/5BR3C",
-    "checkUpdate":{
-        "lastVersion":"2.5",
+    "onlineHelpURL": "https://github.com/Romanysoft/5BR3C",
+    "checkUpdate": {
+        "lastVersion": "2.5",
         "enableForMacOSAppStore": false,
-        "enableForElectron": false, 
-		"enableForTest": false,       
-        "updateURL":"https://github.com/Romanysoft/5BR3C",
-        "prompt":"The new version 2.5 has been released."
+        "enableForElectron": false,
+        "enableForTest": true,
+        "updateURL": "https://github.com/Romanysoft/5BR3C",
+        "prompt": "The new version 2.5 has been released."
     },
-    "checkPatchs":{
-		"enable": true
+    "checkPatchs": {
+        "enable": true
     },
-    "checkPromotions":{
-		"enable": true
+    "checkPromotions": {
+        "enable": true
     }
-    
 }
