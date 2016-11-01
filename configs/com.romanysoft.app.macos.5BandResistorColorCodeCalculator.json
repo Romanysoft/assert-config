@@ -4,7 +4,7 @@
         "lastVersion": "2.5",
         "enableForMacOSAppStore": false,
         "enableForElectron": false,
-        "enableForTest": true,
+        "enableForTest": false,
         "updateURL": "https://github.com/Romanysoft/5BR3C",
         "prompt": "The new version 2.5 has been released."
     },
