@@ -4,15 +4,15 @@
         "lastVersion":"4.23",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,    
-	"enableForTest": true,       
+		"enableForTest": true,       
         "updateURL":"http://romanysoft.github.io/DataStorm/versions",
-        "prompt":"The new version has been released."
+        "prompt":"New major version 4.2.4 available ..."
     },
     "checkPatchs":{
-	"enable": true
+		"enable": true
     },
     "checkPromotions":{
-	"enable": true
+		"enable": true
     }
     
 }
