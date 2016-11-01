@@ -63,6 +63,7 @@
                         var curAppVersion = b$.App.getAppVersion();
                         console.log("last:" + lastVersion + ",cur:" + curAppVersion);
                         if (0 <= $.compareVersion(lastVersion, curAppVersion)) {
+                            console.log('----------- ##loading patchs##');
                             cb && cb(data);
                         }
                     }
