@@ -2,9 +2,9 @@
     "onlineHelpURL": "https://github.com/Romanysoft/5BR3C",
     "checkUpdate": {
         "lastVersion": "2.5",
-        "enableForMacOSAppStore": false,
-        "enableForElectron": false,
-        "enableForTest": false,
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true,
+        "enableForTest": true,
         "updateURL": "https://github.com/Romanysoft/5BR3C",
         "prompt": "The new version 2.5 has been released."
     },
