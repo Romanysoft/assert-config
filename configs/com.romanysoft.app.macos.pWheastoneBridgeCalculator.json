@@ -2,7 +2,7 @@
     "onlineHelpURL":"https://github.com/Romanysoft/p_WheastoneBridgeCalculator/wiki",
     "checkUpdate":{
         "lastVersion":"1.0.0",
-        "enableForMacOSAppStore": false,
+        "enableForMacOSAppStore": true,
         "enableForElectron": true,        
         "updateURL":"https://romanysoft.github.io/p_WheastoneBridgeCalculator/versions",
         "prompt":"New major version 6.6.3 available ..."

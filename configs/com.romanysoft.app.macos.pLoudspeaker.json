@@ -1,0 +1,18 @@
+{
+    "onlineHelpURL":"https://www.romanysoft.com",
+    "checkUpdate":{
+        "lastVersion":"1.1",
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true, 
+	    "enableForTest": true,       
+        "updateURL":"https://www.romanysoft.com",
+        "prompt":"The new version 1.0.0 has been released."
+    },
+    "checkPatchs":{
+	"enable": true
+    },
+    "checkPromotions":{
+	"enable": true
+    }
+    
+}
