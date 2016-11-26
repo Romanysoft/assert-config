@@ -9,7 +9,7 @@
         "prompt":"The new version 1.0 has been released."
     },
     "checkPatchs":{
-	"enable": true
+	"enable": false
     },
     "checkPromotions":{
 	"enable": true

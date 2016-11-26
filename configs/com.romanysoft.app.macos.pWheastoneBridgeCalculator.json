@@ -6,6 +6,12 @@
         "enableForElectron": true,        
         "updateURL":"https://romanysoft.github.io/p_WheastoneBridgeCalculator/versions",
         "prompt":"New major version 6.6.3 available ..."
+    },
+    "checkPatchs":{
+	"enable": false
+    },
+    "checkPromotions":{
+	"enable": true
     }
     
 }
