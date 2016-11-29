@@ -1,0 +1,11 @@
+{
+    "onlineHelpURL":"",
+    "checkUpdate":{
+        "lastVersion":"1.0",
+        "enableForMacOSAppStore": false,
+        "enableForElectron": false,
+	    "enableForTest": false, 
+        "updateURL":"",
+        "prompt":""
+    }
+}
