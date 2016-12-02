@@ -12,6 +12,6 @@
         "enable": true
     },
     "checkPromotions": {
-        "enable": true
+        "enable": false
     }
 }
