@@ -61,7 +61,7 @@
                 _$fn(nxt, "js", jsUrls);
             })
             .done(function(nxt){
-                console.log('----------- load complate ----------------');
+                console.log('----------- load promotions complate ----------------');
             })
 
     };

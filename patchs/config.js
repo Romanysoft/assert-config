@@ -135,19 +135,22 @@
         var htmlUrls = [];
         var jsUrls = [baseUrl + "promotions/release/config.js"];
         		
-        $.RTYUtils.queue()
-            .next(function(nxt){
-                _$fn(nxt, "css", cssUrls);
-            })
-            .next(function(nxt){
-                _$fn(nxt, "html", htmlUrls);
-            })
-            .next(function(nxt){
-                _$fn(nxt, "js", jsUrls, true);
-            })
-            .done(function(nxt){
-                console.log('----------- checkPromotions load complate ----------------');
-            }) 
+        if(_enable){
+            $.RTYUtils.queue()
+                .next(function(nxt){
+                    _$fn(nxt, "css", cssUrls);
+                })
+                .next(function(nxt){
+                    _$fn(nxt, "html", htmlUrls);
+                })
+                .next(function(nxt){
+                    _$fn(nxt, "js", jsUrls, true);
+                })
+                .done(function(nxt){
+                    console.log('----------- checkPromotions load complate ----------------');
+                }) 
+        };        
+
 	};
 	
 	
