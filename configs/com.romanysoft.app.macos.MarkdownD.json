@@ -1,12 +1,12 @@
 {
     "onlineHelpURL":"https://github.com/Romanysoft/MarkdownD/wiki",
     "checkUpdate":{
-        "lastVersion":"3.7.1",
-        "enableForMacOSAppStore": true,
+        "lastVersion":"3.7.2",
+        "enableForMacOSAppStore": false,
         "enableForElectron": true, 
-	    "enableForTest": true,        
+	    "enableForTest": false,        
         "updateURL":"https://romanysoft.github.io/MarkdownD/versions",
-        "prompt":"The new version 3.7.1 has been released."
+        "prompt":"The new version 3.7.2 has been released."
     },
     "checkPatchs":{
 	"enable": true
