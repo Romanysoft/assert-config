@@ -1,5 +1,5 @@
 {
-    "onlineHelpURL":"https://github.com/Romanysoft/SpeedTest/wiki",
+    "onlineHelpURL":"https://www.romanysoft.net/speed19x/",
     "checkUpdate":{
         "lastVersion":"6.7.3",
         "enableForMacOSAppStore": true,
@@ -9,7 +9,7 @@
         "prompt":"New major version 6.7.3 available ..."
     },
     "checkPatchs":{
-	"enable": true
+	"enable": false
     },
     "checkPromotions":{
 	"enable": false

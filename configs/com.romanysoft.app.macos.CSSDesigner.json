@@ -1,12 +1,12 @@
 {
-    "onlineHelpURL":"https://romanysoft.github.io/CSSDesigner/documents",
+    "onlineHelpURL":"https://www.romanysoft.net/cssdesigner/",
     "checkUpdate":{
-        "lastVersion":"4.7.3",
+        "lastVersion":"5.0",
         "enableForMacOSAppStore": true,
         "enableForElectron": true, 
 		"enableForTest": false,       
-        "updateURL":"https://romanysoft.github.io/CSSDesigner/versions",
-        "prompt":"The new version 4.7.3 has been released."
+        "updateURL":"https://www.romanysoft.net/cssdesigner/download/",
+        "prompt":"The new version 5.0 has been released."
     },
     "checkPatchs":{
 		"enable": true
