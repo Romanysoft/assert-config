@@ -1,15 +1,15 @@
 {
-    "onlineHelpURL":"http://romanysoft.github.io/DataStorm/documents",
+    "onlineHelpURL":"https://www.romanysoft.net/datastorm/",
     "checkUpdate":{
-        "lastVersion":"4.24",
+        "lastVersion":"4.36",
         "enableForMacOSAppStore": true,
         "enableForElectron": true,    
 		"enableForTest": true,       
-        "updateURL":"http://romanysoft.github.io/DataStorm/versions",
-        "prompt":"New major version 4.2.4 available ..."
+        "updateURL":"https://www.romanysoft.net/datastorm/download/",
+        "prompt":"New major version 4.36 available ..."
     },
     "checkPatchs":{
-		"enable": true
+		"enable": false
     },
     "checkPromotions":{
 		"enable": false

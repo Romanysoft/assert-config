@@ -1,0 +1,18 @@
+{
+    "onlineHelpURL":"https://www.romanysoft.net/imageminify/",
+    "checkUpdate":{
+        "lastVersion":"2.36",
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true, 
+	    "enableForTest": false,        
+        "updateURL":"https://www.romanysoft.net/imageminify/download/",
+        "prompt":"The new version 2.36 has been released."
+    },
+    "checkPatchs":{
+	   "enable": false
+    },
+    "checkPromotions":{
+	   "enable": false
+    }
+    
+}

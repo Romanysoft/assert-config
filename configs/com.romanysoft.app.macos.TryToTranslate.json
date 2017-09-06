@@ -1,12 +1,18 @@
 {
-    "onlineHelpURL":"https://romanysoft.github.io/Try-to-translate/documents",
+    "onlineHelpURL":"https://www.romanysoft.net/try-to-translate/",
     "checkUpdate":{
-        "lastVersion":"3.22",
+        "lastVersion":"3.36",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
-        "updateURL":"https://romanysoft.github.io/Try-to-translate/versions",
+        "updateURL":"https://www.romanysoft.net/try-to-translate/download/",
         "prompt":"The new version has been released."
     },
+    "checkPatchs":{
+	   "enable": false
+    },
+    "checkPromotions":{
+	   "enable": false
+    },	    
     "comment":"google translate api url",
     "gourl20151218":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=977182|575703",
     "gourl_v1":"http://translate.google.cn/translate_a/single?&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&source=btn&ssel=0&tsel=3&kc=0&tk=265632.142896",

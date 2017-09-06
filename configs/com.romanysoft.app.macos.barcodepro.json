@@ -1,11 +1,11 @@
 {
     "onlineHelpURL":"https://github.com/Romanysoft/BarcodePro/wiki",
     "checkUpdate":{
-        "lastVersion":"8.1",
-        "enableForMacOSAppStore": false,
+        "lastVersion":"8.3",
+        "enableForMacOSAppStore": true,
         "enableForElectron": true, 
 	"enableForTest": true,        
-        "updateURL":"https://romanysoft.github.io/BarcodePro/versions",
+        "updateURL":"https://www.romanysoft.net/barcodepro/download/",
         "prompt":"The new version has been released."
     },
     "checkPatchs":{

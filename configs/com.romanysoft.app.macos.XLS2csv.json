@@ -1,11 +1,11 @@
 {
     "onlineHelpURL":"https://www.romanysoft.net/xls2csv/",
     "checkUpdate":{
-        "lastVersion":"4.20",
+        "lastVersion":"5.1",
         "enableForMacOSAppStore": true,
         "enableForElectron": true,        
-        "updateURL":"https://www.romanysoft.net/xls2csv/download/",
-        "prompt":"New major version 4.20 available ..."
+        "updateURL":"https://gmagon.com/products/store/xls2csv/download.html",
+        "prompt":"New major version 5.1 available ..."
     },
     "checkPatchs":{
 	   "enable": false
