@@ -1,18 +1,18 @@
 {
-    "onlineHelpURL":"https://www.romanysoft.net/speed19x/",
+    "onlineHelpURL":"https://aws.romanysoft.com/speedtest/",
     "checkUpdate":{
-        "lastVersion":"6.7.3",
-        "enableForMacOSAppStore": true,
+        "lastVersion":"20171205.22.12",
+        "enableForMacOSAppStore": false,
         "enableForElectron": true,  
 		"enableForTest": false, 
-        "updateURL":"https://www.romanysoft.net/speed19x/download/",
-        "prompt":"New major version 6.7.3 available ..."
+        "updateURL":"https://aws.romanysoft.com/speedtest/",
+        "prompt":"New major version 20171205.22.12 is available ..."
     },
     "checkPatchs":{
-	"enable": false
+	   "enable": false
     },
     "checkPromotions":{
-	"enable": false
+	   "enable": false
     }	
     
 }
