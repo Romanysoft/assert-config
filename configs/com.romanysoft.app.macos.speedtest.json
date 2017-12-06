@@ -1,18 +1,17 @@
 {
-    "onlineHelpURL":"https://aws.romanysoft.com/speedtest/",
-    "checkUpdate":{
-        "lastVersion":"20171205.22.12",
+    "onlineHelpURL": "https://aws.romanysoft.com/speedtest/",
+    "checkUpdate": {
+        "lastVersion": "20171205.22.12",
         "enableForMacOSAppStore": false,
-        "enableForElectron": true,  
-		"enableForTest": false, 
-        "updateURL":"https://aws.romanysoft.com/speedtest/",
-        "prompt":"New major version 20171205.22.12 is available ..."
+        "enableForElectron": false,
+        "enableForTest": true,
+        "updateURL": "https://aws.romanysoft.com/speedtest/",
+        "prompt": "New major version 20171205.22.12 is available ..."
     },
-    "checkPatchs":{
-	   "enable": false
+    "checkPatchs": {
+        "enable": false
     },
-    "checkPromotions":{
-	   "enable": false
-    }	
-    
+    "checkPromotions": {
+        "enable": false
+    }
 }
