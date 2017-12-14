@@ -2,8 +2,8 @@
     "onlineHelpURL": "https://aws.romanysoft.com/speedtest/",
     "checkUpdate": {
         "lastVersion": "7.0.0",
-        "enableForMacOSAppStore": false,
-        "enableForElectron": false,
+        "enableForMacOSAppStore": true,
+        "enableForElectron": true,
         "enableForTest": true,
         "updateURL": "https://aws.romanysoft.com/speedtest/",
         "prompt": "New version 7.0.0 (20171213145200) is available ..."
