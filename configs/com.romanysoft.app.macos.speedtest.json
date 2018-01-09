@@ -1,7 +1,7 @@
 {
     "onlineHelpURL": "https://aws.romanysoft.com/speedtest/",
     "checkUpdate": {
-        "lastVersion": "6.7.2",
+        "lastVersion": "7.0.3",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,
         "enableForTest": true,
