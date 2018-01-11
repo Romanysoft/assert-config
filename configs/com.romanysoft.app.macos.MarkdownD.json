@@ -1,12 +1,12 @@
 {
     "onlineHelpURL":"https://aws.romanysoft.com/markdownd/",
     "checkUpdate":{
-        "lastVersion":"4.0.1",
+        "lastVersion":"4.0.2",
         "enableForMacOSAppStore": true,
         "enableForElectron": true,
 	    "enableForTest": true,
         "updateURL":"https://aws.romanysoft.com/markdownd/",
-        "prompt":"New version 4.0.1 is available! If you have not yet upgraded to the latest version, please upgrade as soon as possible!"
+        "prompt":"New version 4.0.2 is available! If you have not yet upgraded to the latest version, please upgrade as soon as possible!"
     },
     "checkPatchs":{
 	   "enable": false
