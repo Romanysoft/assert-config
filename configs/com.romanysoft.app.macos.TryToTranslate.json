@@ -1,11 +1,11 @@
 {
     "onlineHelpURL":"https://www.romanysoft.net/try-to-translate/",
     "checkUpdate":{
-        "lastVersion":"3.36",
+        "lastVersion":"4.0.0",
         "enableForMacOSAppStore": false,
         "enableForElectron": true,        
-        "updateURL":"https://www.romanysoft.net/try-to-translate/download/",
-        "prompt":"The new version has been released."
+        "updateURL":"https://aws.romanysoft.com/trytotranslate/",
+        "prompt":"Version 4.0.0 is available! "
     },
     "checkPatchs":{
 	   "enable": false
