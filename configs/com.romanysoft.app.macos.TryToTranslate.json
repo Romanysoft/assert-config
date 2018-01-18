@@ -5,7 +5,7 @@
         "enableForMacOSAppStore": true,
         "enableForElectron": false,
         "updateURL":"https://aws.romanysoft.com/dl-trytotranslate-mac",
-        "prompt":"The new version 4.0.0 has been released."
+        "prompt":"New version 4.0.0 has been released."
     },
     "checkPatchs":{
 	   "enable": false
