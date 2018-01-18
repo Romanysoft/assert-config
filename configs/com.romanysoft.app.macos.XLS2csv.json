@@ -4,7 +4,7 @@
         "lastVersion":"7.9.0",
         "enableForMacOSAppStore": true,
         "enableForElectron": true,        
-        "updateURL":"https://gmagon.com/products/store/xls2csv/download.html",
+        "updateURL":"https://aws.gmagon.com/xls2csv/",
         "prompt":"New version 7.9.0 available ..."
     },
     "checkPatchs":{
