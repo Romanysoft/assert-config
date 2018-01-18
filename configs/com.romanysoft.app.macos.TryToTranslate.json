@@ -2,10 +2,17 @@
     "onlineHelpURL":"https://aws.romanysoft.com/trytotranslate/",
     "checkUpdate":{
         "lastVersion":"4.0.0",
+<<<<<<< HEAD
         "enableForMacOSAppStore": true,
         "enableForElectron": false,
         "updateURL":"https://aws.romanysoft.com/dl-trytotranslate-mac",
         "prompt":"The new version 4.0.0 has been released."
+=======
+        "enableForMacOSAppStore": false,
+        "enableForElectron": true,
+        "updateURL":"https://aws.romanysoft.com/trytotranslate/",
+        "prompt":"Version 4.0.0 is available! "
+>>>>>>> origin/gh-pages
     },
     "checkPatchs":{
 	   "enable": false
